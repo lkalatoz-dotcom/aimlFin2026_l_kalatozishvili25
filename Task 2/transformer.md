@@ -15,7 +15,7 @@ Transformer networks are a type of deep learning model introduced by Vaswani et 
    - Since transformers do not inherently understand the order of sequences, positional encodings are added to input embeddings. This provides the model with information about the position of each word, ensuring that the sequential nature is captured.
 
 ### Attention Layer Mechanism
-![Attention Mechanism](attention_diagram.png)
+![Attention Mechanism](attention_mechanism.png)
 
 ### Positional Encoding Diagram
 ![Positional Encoding](positional_encoding.png)
