@@ -15,6 +15,8 @@ Transformer networks are a type of deep learning model introduced by Vaswani et 
    - Since transformers do not inherently understand the order of sequences, positional encodings are added to input embeddings. This provides the model with information about the position of each word, ensuring that the sequential nature is captured.
 
    ![Alt Text](1 image.jpg)
+
+   
    ![Alt Text](2 image.jpg)
 
 ## Applications in Cybersecurity
