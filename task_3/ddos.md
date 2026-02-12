@@ -108,7 +108,7 @@ ddos_times = traffic_1sec[traffic_1sec > threshold]
 ## Visualizations
 
 ### 1. Traffic Over Time with Regression Analysis
-![Traffic Analysis](./traffic_analysis.png)
+![Traffic Analysis](./ddos_plot.png)
 
 This graph shows:
 - **Blue line**: Actual requests per second
@@ -124,7 +124,7 @@ The regression-based threshold clearly identifies the attack spike between 18:17
 The horizontal bar chart shows the top 15 IP addresses by request count. The distribution suggests a coordinated botnet attack with multiple source IPs.
 
 ### 3. Traffic Distribution
-![DDoS Traffic Analysis](./ddos_plot.png)
+![DDoS Traffic Analysis]
 
 The histogram shows:
 - Most traffic is concentrated below 50 requests/second
