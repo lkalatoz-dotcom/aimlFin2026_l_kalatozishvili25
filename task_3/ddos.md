@@ -124,7 +124,7 @@ The regression-based threshold clearly identifies the attack spike between 18:17
 The horizontal bar chart shows the top 15 IP addresses by request count. The distribution suggests a coordinated botnet attack with multiple source IPs.
 
 ### 3. Traffic Distribution
-![Traffic Distribution](./traffic_distribution.png)
+![DDoS Traffic Analysis](./ddos_plot.png)
 
 The histogram shows:
 - Most traffic is concentrated below 50 requests/second
