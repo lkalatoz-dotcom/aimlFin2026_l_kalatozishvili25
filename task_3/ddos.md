@@ -107,29 +107,26 @@ ddos_times = traffic_1sec[traffic_1sec > threshold]
 
 ## Visualizations
 
-### 1. Traffic Over Time with Regression Analysis
-![Traffic Analysis](./ddos_plot.png)
+![DDoS Complete Analysis](./ddos_plot.png)
 
-This graph shows:
-- **Blue line**: Actual requests per second
-- **Red dots**: Detected DDoS anomalies (traffic > threshold)
-- **Orange dashed line**: Baseline mean (20.10 req/s)
-- **Green dotted line**: Detection threshold (99.39 req/s)
+*Figure: Comprehensive DDoS attack analysis with three components*
 
-The regression-based threshold clearly identifies the attack spike between 18:17 and 18:19.
+### Visualization Components:
 
-### 2. Top IP Addresses
-![Top IPs](./top_ips.png)
+**Top Panel - Traffic Over Time:**
+- 🔵 Blue line shows actual requests per second
+- 🔴 Red dots highlight detected DDoS anomalies
+- 🟢 Green dotted line marks the detection threshold (99.39 req/s)
+- 🟠 Orange dashed line indicates baseline mean (20.10 req/s)
 
-The horizontal bar chart shows the top 15 IP addresses by request count. The distribution suggests a coordinated botnet attack with multiple source IPs.
+**Middle Panel - Top IP Addresses:**
+- Shows the 15 most active IP addresses during the logging period
+- Even distribution (~500 requests each) suggests distributed attack pattern
 
-### 3. Traffic Distribution
-![DDoS Traffic Analysis]
-
-The histogram shows:
-- Most traffic is concentrated below 50 requests/second
-- A long tail extends to 262 requests/second during the attack
-- Clear separation between normal and attack traffic
+**Bottom Panel - Traffic Distribution:**
+- Histogram showing frequency of different traffic intensities
+- Most traffic concentrated below 50 req/s (normal operations)
+- Long tail extending to 262 req/s represents attack traffic
 
 ## Attack Pattern Analysis
 
