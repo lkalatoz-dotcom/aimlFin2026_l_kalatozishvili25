@@ -197,13 +197,11 @@ intervals = [(s, e) for s, e in intervals if (e - s).total_seconds() >= 10]
 | 3 — Request/IP Ratio | Per-second ratio with both old and new threshold lines |
 | 4 — Combined Result | Detected DDoS interval shaded in red |
 
-![DDoS Detection — Four-panel](./ddos_improved.png)
+![DDoS Detection — Four-panel](./Figure_1.png)
 
 ### `top_ips.png` — Top 15 IP addresses by request count
 
 Shows which IPs contributed most requests over the full log period.
-
-![Top 15 IPs](./top_ips.png)
 
 ---
 
